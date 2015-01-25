@@ -1,6 +1,6 @@
 angular.module('app',['changeNumberAnimate'])
 .controller('testA', ['$scope','changeNumberAnimate', function ($scope,numberAnimate){
-  $scope.speed = 10;
+  $scope.speed = 100000;
   $scope.weight ={}; 
   $scope.weight.input = 0; 
   $scope.weight.newNum = 0;  
